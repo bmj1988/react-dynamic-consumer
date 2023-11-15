@@ -6,7 +6,7 @@ const Match = () => {
   const { sign } = useContext(HoroscopeContext);
 
   console.log(sign.match);
-
+  console.log(sign)
   return (
     <>
       <button onClick={() => setMatch(!match)}>
